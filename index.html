@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Amazon_Style/css/main.css">
+    <script src="../Amazon_Style/js/main.js"></script>
+    <!-- <link rel="stylesheet" href="../Amazon_Style/css/reset.css"> -->
+</head>
+
+<body>
+    <!-- 网页头部，包含所有深蓝色区域 -->
+    <div class="header">
+        <div class="hdLeft">
+            <div class="logo">
+                <img src="../Amazon_Style/img/logo.png" alt="">
+            </div>
+            <div class="hdRightSel" onmouseover="float1()">Departments
+                <img src="../Amazon_Style/img/selectSmall.png" alt="">
+            </div>
+        </div>
+        <div class="hdMid">
+            <div class="hdMidTop">
+                <div class="hdMidSel">
+                    <select name="" id="hdMidSel">
+                        <option value="">Home & Kitchen</option>
+                    </select>
+                </div>
+                <input type="text">
+                <button>
+                    <img src="../Amazon_Style/img/search.png" alt="">
+                </button>
+            </div>
+            <div class="hdMidBot">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+        <div class="hdRight">
+            <div class="hdRightTop">
+                <img src="../Amazon_Style/img/shipping.png" alt="">
+            </div>
+            <div class="hdRightBot">
+                <div class="hdRightSel" onmouseover="float2()">
+                    <div class="grayFont">En</div>
+                    <img src="../Amazon_Style/img/EN.png" alt="">
+                    <img src="../Amazon_Style/img/selectSmall.png" alt="">
+                </div>
+                <div class="splitAlign">&nbsp</div>
+                <div class="hdRightSel" id="HelloFrame" onmouseover="float3()">
+                    <div class="grayFont">Hello Guest</div>
+                    <span>Account&Lists</span>
+                    <img src="../Amazon_Style/img/selectSmall.png" alt="">
+                </div>
+                <div class="hdRightSel">
+                    <div>Orders</div>
+                </div>
+                <div class="hdRightSel" onmouseover="float4()">
+                    <span>Prime</span>
+                    <img src="../Amazon_Style/img/selectSmall.png" alt="">
+                </div>
+                <div class="hdRightSel" id="Cart">
+                    <img src="../Amazon_Style/img/Cart.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 网页头结束 -->
+    <!-- 网页主体 -->
+    <div class="body">
+        <!-- 浮出层部分 -->
+        <div class="shade" onmouseover="floatBack()"></div>
+        <div class="floatLayer" id="fL1">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </div>
+        <div class="floatLayer" id="fL2">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </div>
+        <div class="floatLayer" id="fL3">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </div>
+        <div class="floatLayer" id="fL4">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </div>
+        <!-- 浮出层部分结束 -->
+        <div class="return">
+            <img src="../Amazon_Style/img/backIcon.png" alt=""> Back to search result for "Front-end Developer"</div>
+        <!-- Part1为一个三栏式布局 -->
+        <div class="bdPart1">
+            <div class="p1LeftFrame">
+                <div class="p1Left">
+                    <div class="imgSmall">
+                        <div class="imgIcon" onmouseover="hoverIcon1()">
+                            <img src="../Amazon_Style/img/heater.png" alt="">
+                        </div>
+                        <div class="imgIcon" onmouseover="hoverIcon2()">
+                            <img src="../Amazon_Style/img/heater.png" alt="">
+                        </div>
+                        <div class="imgIcon" onmouseover="hoverIcon3()">
+                            <img src="../Amazon_Style/img/heater.png" alt="">
+                        </div>
+                        <div class="imgIcon">
+                            <img src="../Amazon_Style/img/heater.png" alt="">
+                        </div>
+                        <div class="imgIcon">
+                            <img src="../Amazon_Style/img/heater.png" alt="">
+                        </div>
+                        <div class="imgIcon">
+                            <img src="../Amazon_Style/img/heater.png" alt="">
+                        </div>
+                        <div class="imgIcon">
+                            <img src="../Amazon_Style/img/heater.png" alt="">
+                        </div>
+                    </div>
+                    <div class="imgLarge">
+                        <div class="imgLg" id="imgLg1">
+                            <img src="../Amazon_Style/img/heater.png" alt="">
+                        </div>
+                        <div class="imgLg" id="imgLg2">
+                            <img src="../Amazon_Style/img/logo.png" alt="">
+                        </div>
+                        <div class="imgLg" id="imgLg3">
+                            <img src="../Amazon_Style/img/prime.png" alt="">
+                        </div>
+                        <div class="p1LeftZoom">Roll over image to zoom in</div>
+                    </div>
+                </div>
+            </div>
+            <div class="p1Mid">
+                <div>
+                    <a href="#">Yu Wang</a>
+                </div>
+                <div id="titleMid">Yu Wang Front-end Web Developer</div>
+                <div id="midReview">
+                    <img src="../Amazon_Style/img/stars.png" alt="">
+                    <span>
+                        <a href="#">4 customers review</a>
+                    </span>
+                    <span id="answerMid">
+                        <a href="#">35 answered questions</a>
+                    </span>
+                </div>
+                <div class="splitLine"></div>
+                <div>
+                    <span>List price:</span>
+                    <span id="lineThru">$85K annual</span>
+                </div>
+                <div>
+                    <span>Price:</span>
+                    <span class="redFont">$65K annual</span>
+                    <img src="../Amazon_Style/img/prime.png" alt="">
+                </div>
+                <div>
+                    <span>You save:</span>
+                    <span id="save">$20K annual (23.5%)</span>
+                </div>
+                <p>
+                    <a href="#">Get $20K off instantly: Hire me instantly with an H1b sponsorship.</a>
+                </p>
+                <div class="redFont">Only 1 left in stock - order soon.</div>
+                <p class="greenFont">Arrives before New Year's Eve.</p>
+                <p>
+                    <strong>Authorized to work</strong>(OPT) in US.
+                    <strong>Willing to relocate</strong> to any state in US.</p>
+                <p>
+                    <strong>Want me tomorrow, Dec.28?</strong> Order within
+                    <strong class="greenFont">3 hrs 1 min</strong> and choose
+                    <strong>One-Day Shipping</strong> at checkout.
+                    <a href="#">Details</a>
+                </p>
+                <p>Sold and Fulfilled by
+                    <strong>Northeastern University</strong>.</p>
+
+                <ul>
+                    <li>2 years of experience in front end development.</li>
+                    <li>Proficient in HTML, CSS, Fireworks8, JavaScript, JQuery.
+                    </li>
+                    <li>Ability to create a Web page from a PSD.</li>
+                    <li>Experience in working with PHP-driven sites or pages (to be delivered to in-house programmers).</li>
+                </ul>
+                <div>
+                    <a href="#">Compare with similar items</a>
+                </div>
+                <div>
+                    <a href="#">Used & new (3) from $174.83</a>
+                    <i>
+                        <img src="../Amazon_Style/img/prime.png" alt="">
+                    </i>
+                </div>
+            </div>
+            <div class="p1Right">
+                <div id="p1RightShare">
+                    <span id="share">
+                        <a href="#">Share</a>
+                    </span>
+                    <i>
+                        <img src="../Amazon_Style/img/share1.png" alt="">
+                    </i>
+                    <i>
+                        <img src="../Amazon_Style/img/share2.png" alt="">
+                    </i>
+                    <i>
+                        <img src="../Amazon_Style/img/share3.png" alt="">
+                    </i>
+                    <i>
+                        <img src="../Amazon_Style/img/share4.png" alt="">
+                    </i>
+                </div>
+                <div id="rFrame">
+                    <div class="p1RightFrame" id="p1New">
+                        <div class="p1RightRadio">
+                            <div>
+                                <input type="radio" name="selected" class="radio" id="radio1" checked="checked" onclick="show()">
+                                <span class="boldFont buyNew">Buy new</span>
+                            </div>
+                            <div class="div189">$189.00</div>
+                        </div>
+                        <div class="contBox" id="contBox1">
+                            <div id="content1">
+                                <div class="Qty">
+                                    <span>Qty:</span>
+                                    <select name="" id="">
+                                        <option value="">1</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <button class="acButton">
+                                        <img src="../Amazon_Style/img/AddtoCart.png" alt="">
+                                        <span class="AC">Add to Cart</span>
+                                    </button>
+                                </div>
+                                <div class="splitLine"></div>
+                                <p class="boldFont">Ship to:</p>
+                                <p>
+                                    <select name="" class="address">
+                                        <option value="">Wang Yu - Malden - 02148 </option>
+                                    </select>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p1RightFrame" id="p1Used">
+                        <div class="p1RightRadio">
+                            <div>
+                                <input type="radio" name="selected" class="radio" id="radio2" onclick="show()">
+                                <span class="boldFont buyNew">Buy used</span>
+                            </div>
+                            <div class="div189">$166.00</div>
+                        </div>
+                        <div class="contBox" id="contBox2">
+                            <div id="content2">
+                                <div class="Qty">
+                                    <span>Qty:</span>
+                                    <select name="" id="">
+                                        <option value="">1</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <button class="acButton">
+                                        <img src="../Amazon_Style/img/AddtoCart.png" alt="">
+                                        <span class="AC">Add to Cart</span>
+                                    </button>
+                                </div>
+                                <div class="splitLine"></div>
+                                <p class="boldFont">Ship to:</p>
+                                <p>
+                                    <select name="" class="address">
+                                        <option value="">Wang Yu - Malden - 02148 </option>
+                                    </select>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Part1结束 -->
+        <div class="splitLine"></div>
+        <!-- Part2开始 -->
+        <div class="p2">
+            <div class="Intro">Cumstomers who viewed this item also viewed</div>
+            <div class="p2Content">
+                <button onclick="leftRoll()">&lt</button>
+                <div class="p2ItemsContainer">
+                    <div class="p2Items">
+                        <div>
+                            <img src="../Amazon_Style/img/p2Img1.png" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Comfort Zone Ceiling Mount Quartz Heater ,Black, 1500 Watts</a>
+                        </div>
+                        <div>
+                            <img src="../Amazon_Style/img/stars.png" alt="">
+                            <div>
+                                <span>$54.97</span>
+                                <i>
+                                    <img src="../Amazon_Style/img/prime.png" alt="">
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p2Items">
+                        <div>
+                            <img src="../Amazon_Style/img/p2Img1.png" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Comfort Zone Ceiling Mount Quartz Heater ,Black, 1500 Watts</a>
+                        </div>
+                        <div>
+                            <img src="../Amazon_Style/img/stars.png" alt="">
+                            <div>
+                                <span>$54.97</span>
+                                <i>
+                                    <img src="../Amazon_Style/img/prime.png" alt="">
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p2Items">
+                        <div>
+                            <img src="../Amazon_Style/img/p2Img1.png" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Comfort Zone Ceiling Mount Quartz Heater ,Black, 1500 Watts</a>
+                        </div>
+                        <div>
+                            <img src="../Amazon_Style/img/stars.png" alt="">
+                            <div>
+                                <span>$54.97</span>
+                                <i>
+                                    <img src="../Amazon_Style/img/prime.png" alt="">
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p2Items">
+                        <div>
+                            <img src="../Amazon_Style/img/p2Img1.png" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Comfort Zone Ceiling Mount Quartz Heater ,Black, 1500 Watts</a>
+                        </div>
+                        <div>
+                            <img src="../Amazon_Style/img/stars.png" alt="">
+                            <div>
+                                <span>$54.97</span>
+                                <i>
+                                    <img src="../Amazon_Style/img/prime.png" alt="">
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p2Items">
+                        <div>
+                            <img src="../Amazon_Style/img/p2Img1.png" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Comfort Zone Ceiling Mount Quartz Heater ,Black, 1500 Watts</a>
+                        </div>
+                        <div>
+                            <img src="../Amazon_Style/img/stars.png" alt="">
+                            <div>
+                                <span>$54.97</span>
+                                <i>
+                                    <img src="../Amazon_Style/img/prime.png" alt="">
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p2Items">
+                        <div>
+                            <img src="../Amazon_Style/img/p2Img1.png" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Comfort Zone Ceiling Mount Quartz Heater ,Black, 1500 Watts</a>
+                        </div>
+                        <div>
+                            <img src="../Amazon_Style/img/stars.png" alt="">
+                            <div>
+                                <span>$54.97</span>
+                                <i>
+                                    <img src="../Amazon_Style/img/prime.png" alt="">
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="rightRoll()">&gt</button>
+            </div>
+        </div>
+        <div class="splitLine"></div>
+        <!-- Part2结束 -->
+        <!-- Part3部分 -->
+        <div class="bdPart3">
+            <div class="Intro">Candidate Information</div>
+            <div class="p3Content">
+                <div class="p3Right">
+                    <table>
+                        <tr>
+                            <td>Candidate's Name</td>
+                            <td>Yu Wang</td>
+                        </tr>
+                        <tr>
+                            <td>Highest Degree</td>
+                            <td>Master</td>
+                        </tr>
+                        <tr>
+                            <td>Graduate University</td>
+                            <td>Northeastern University</td>
+                        </tr>
+                        <tr>
+                            <td>Email-Address</td>
+                            <td>wang.yu4@husky.neu.edu</td>
+                        </tr>
+                        <tr>
+                            <td>Phone Number</td>
+                            <td>626-807-0977</td>
+                        </tr>
+                        <tr>
+                            <td>Current Address</td>
+                            <td>San Gabriel, CA, 91775</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="p3Left">
+                    <div id="SD">Self Description</div>
+                    <div class="splitLine"></div>
+                    <p>
+                        A detail oriented programmer with good mathematics background. Interested in web developing, database, data analyze. Proficient
+                        in
+                        <span class="boldFont">HTML5/CSS3, JavaScript, T-SQL</span>. Seeking for jobs including but not limited to
+                        <span class="greenFont">Front-end Developer</span>, SQL Developer and BI developer.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="splitLine"></div>
+        <!-- Part3结束 -->
+        <div class="Part4">
+            <div class="container">
+                <div class="col_md_6 col_sm_6">
+                    <div>
+                        <div class="floatList" onmouseover="showList1()">
+                            <ul>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                            </ul>
+                        </div>
+                        <div class="shade1"></div>
+                        <img src="../Amazon_Style/img/project1.png" alt="">
+                    </div>
+                </div>
+                <div class="col_md_6 col_sm_6">
+                    <div>
+                        <div class="floatList" onmouseover="showList2()">
+                            <ul>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                            </ul>
+                        </div>
+                        <div class="shade1"></div>
+                        <img src="../Amazon_Style/img/project2.png" alt="">
+                    </div>
+                </div>
+                <div class="col_md_6 col_sm_6">
+                    <div>
+                        <div class="floatList" onmouseover="showList3()">
+                            <ul>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                            </ul>
+                        </div>
+                        <div class="shade1" onmouseover=""></div>
+                        <img src="../Amazon_Style/img/project3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 网页主体结束 -->
+    <div class="splitLine"></div>
+    <!-- 网页页脚,包含回到顶部按钮 -->
+    <div class="footer">
+        <!-- 页脚返回顶部按钮 -->
+        <div class="toTop" onclick="pageScroll()">
+            <div>Back to top</div>
+        </div>
+        <!-- 按钮结束 -->
+        <!-- 四栏布局部分 -->
+        <div class="ftPart1">
+            <i>
+                <img src="../Amazon_Style/img/footerLogo.png" alt="">
+            </i>
+            <div>
+                <img src="../Amazon_Style/img/footerIcon1.png" alt="">English</div>
+            <div>
+                <img src="../Amazon_Style/img/footerIcon2.png" alt="">United States</div>
+        </div>
+        <!-- 四栏布局部分结束 -->
+        <!-- 语言地区选择 -->
+        <div class="ftPart2">
+            <div>Condition of Use</div>
+            <div>Privacy Notice</div>
+            <div>Interest-Based Ads</div>
+            <div>&copy 1996-2017, Amazon.com, Inc. or its affiliates</div>
+        </div>
+        <!-- 语言地区选择结束 -->
+        <!-- 版权部分 -->
+        <div class="ftPart3"></div>
+        <!-- 版权部分结束 -->
+    </div>
+    <!-- 页脚结束 -->
+</body>
+
+</html>
